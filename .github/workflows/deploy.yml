@@ -16,5 +16,5 @@ jobs:
             git init
             git add -A
             git commit -m 'deploy'
-            git push -f https://Hlautameki:${{ secrets.GITHUB_TOKEN }}@github.com/Hlautameki/vuegithub.git main:gh-pages
+            git push -f https://Hlautameki:${{ secrets.GITHUB_TOKEN }}@github.com/Hlautameki/vuegithub.git master:gh-pages
       shell: bash
